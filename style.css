@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: : 0;
+	font-size: 100%;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+body{
+    background:url("img/background.png") rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    color: floralwhite;
+}
+button{
+    background-color: rgb(8, 202, 96);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 100px;
+    width: 200px;
+    border: 0px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: rgb(4, 161, 75);
+}
+h1{
+    padding: 10px;
+    font-size: 20px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.container{
+    width: 500px;
+    height: auto;    
+    background-color: rgb(20, 20, 20);
+    margin:10px auto;
+    border-radius: 10px;    
+    box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.image img{
+    width:100%;
+    border-radius: 5px 10px 0px 0px;
+    
+}
+
+.pergunta{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(90, 188, 245);
+}
+
+.resposta{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+.resposta ul{   
+    padding: 5px 30px;
+    
+}
+
+.resposta ul li{
+    display: block;
+    background-color: rgb(38, 48, 48);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 100%;
+    text-align: justify;
+    font-size: 12px;;
+}
+
+.resposta ul li:hover{
+    background-color: rgb(64, 73, 73);
+}
+
+.resultado{
+    margin: 10px;
+    padding: 15px 0px;
+}
+
+.resultado h3{
+    display: none;
+}
+
+.green{    
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(8, 202, 96); 
+    border-radius: 0px;
+   
+}
+
+.red{    
+    padding: 15px;
+    text-align: center;
+    border-radius: 0px;
+    background-color: rgb(241, 22, 14);
+    
+}
+
+.resultado h3 i {
+    font-size:20px;
+}
+
+.contador{
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- PACOTE DE ANIMAÇÕES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- PACOTE DE ICONES -->
+    <script src="https://kit.fontawesome.com/56a86dd71e.js" crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div class="container">
+    	<!-- IMAGENS DO QUESTIONÁRIO -->
+        <div id="image" class="image">            
+        </div>
+
+        <!-- PERGUNTAS DO QUESTIONÁRIO -->
+        <div  class="pergunta">
+            <h1 id="pergunta">Questionário Unigranrio
+            	<p><strong>Aluno:</strong> Leandro Campos Nunes</p>
+            	<p><strong>Matrícula:</strong> 5406272</p>
+        	</h1>
+            
+        </div>
+
+        <!-- ALTERNATIVAS DO QUESTIONÁRIO -->
+        <div class="resposta" >
+            <ul id="resposta">
+                <div id="botao">
+                    <button onclick="lerPergunta()"> COMEÇAR</button>
+                </div>
+            </ul>
+
+            <!-- ALERTA DE MENSAGEM DO RESULTADO -->            
+            <div id="resultado" class="resultado">
+                <h3 id="msgresult"><i class="fas fa-check-square"></i> CERTO ou ERRADO </h3>
+            </div>
+        </div>        
+    </div>
+
+    <!-- CONTADOR DAS QUESTÕES -->
+    <div id="contador" class="contador">
+        (0/10)
+    </div>
+
+    <!-- JAVASCRIPT E FUNÇÕES -->
+    <script src="js/script.js"></script>    
+</body>
+</html>
